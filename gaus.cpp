@@ -1,4 +1,3 @@
-// гаус.cpp: определяет точку входа для консольного приложения.
 //
 
 #include <iostream>
@@ -11,7 +10,7 @@ int main()
 	double x1, x2, x3, x4;
 	double coefficient1, coefficient2, coefficient3, coefficient4, coefficient5;
 	double Matrix[4][5];
-	cout << "Введите коэффициенты" << endl;
+	cout << "enter odds" << endl;
 	for (int i = 0; i < 4; i++)
 		for (int j = 0; j < 5; j++)
 			cin >> Matrix[i][j];
