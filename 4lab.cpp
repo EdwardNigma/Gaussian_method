@@ -34,7 +34,7 @@ int main()
 	x = v(y0);
 	y = u(y0);
 	double arr[4];
-	cout << "Âûğàçèâ õ è ó ïîëó÷àåì ñëåäóşùèå âûğàæåíèÿ äëÿ âû÷èñëåíèÿ:" << endl;
+	cout << ""Ğ’Ñ‹Ñ€Ğ°Ğ·Ğ¸Ğ² Ñ… Ğ¸ Ñƒ Ğ¿Ğ¾Ğ»ÑƒÑ‡Ğ°ĞµĞ¼ ÑĞ»ĞµĞ´ÑƒÑÑ‰Ğ¸Ğµ Ğ²Ñ‹Ñ€Ğ°Ğ¶ĞµĞ½Ğ¸Ñ Ğ´Ğ»Ñ Ğ²Ñ‹Ñ‡Ğ¸ÑĞ»ĞµĞ½Ğ¸Ñ:" << endl;
 	cout << "y = 0.7 - cos(y - 1);" << endl;
 	cout << "x = 1 - sin(y) / 2;" << endl;
 	arr[0] = firstDerivative(y0);
@@ -44,7 +44,7 @@ int main()
 	max = arr[0];
 	for (int i = 0; i < 4; i++)
 		if (max < arr[i]) max = arr[i];
-	if (max > 1) cout << "Ìåòîä ğàñõîäèòñÿ." << endl;
+	if (max > 1) cout << "ĞœĞµÑ‚Ğ¾Ğ´ Ñ€Ğ°ÑÑ…Ğ¾Ğ´Ğ¸Ñ‚ÑÑ." << endl;
 	else
 	{
 		while ((abs(x - x0) > eps) && (abs(y - y0) > eps))
