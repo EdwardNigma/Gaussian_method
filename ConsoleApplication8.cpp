@@ -37,9 +37,9 @@ int main()
 	double x = 0;
 	double expon = 1;
 	double n = 1;
-	cout << "¬ведите действительное число х: ";
+	cout << enter double number: ";
 	cin >> x;
-	cout << "¬ведите заданную точность: ";
+	cout << "enter accuracy: ";
 	cin >> eps;
 	Taylor(x, eps, expon, n);
 	cout << expon << endl;
